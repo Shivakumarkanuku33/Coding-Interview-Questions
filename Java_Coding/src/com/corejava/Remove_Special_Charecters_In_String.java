@@ -6,6 +6,7 @@ public class Remove_Special_Charecters_In_String {
 		
 		String str = "H!@@$%E++*&L**L++#$O%*&*&%$J@@A%&V**A##";
 		
+		//we are printing what characters we want
 		String plainStr = str.replaceAll("[^a-zA-Z0-9]", "");
 		System.out.println(plainStr);
 		
