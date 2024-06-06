@@ -41,6 +41,7 @@ public class MergedList {
 		                .collect(Collectors.toList());
 		  System.out.println("Duplicate Elements :"+duplicateList);
 		
+		  //This #4 ways we can get values
 		
 	}
 }
