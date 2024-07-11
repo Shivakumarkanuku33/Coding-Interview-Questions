@@ -17,5 +17,6 @@ public class SortCharecters {
 			}
 		}
 		System.out.println(new String(array));
+		System.out.println("Sorting of a String");
 }
 }
