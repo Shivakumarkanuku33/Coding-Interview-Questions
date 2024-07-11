@@ -39,7 +39,7 @@ public class MergedList {
 		Set<Integer> set = new HashSet<>();
 		List<Integer> duplicateList = mergedList.stream().filter(s -> !set.add(s))
 		                .collect(Collectors.toList());
-		  System.out.println("Duplicate Elements :"+duplicateList);
+		  System.out.println("Duplicate Elements :"+ duplicateList);
 		
 		
 	}
