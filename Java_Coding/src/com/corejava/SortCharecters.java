@@ -3,7 +3,7 @@ package com.corejava;
 public class SortCharecters {
 
 	public static void main(String[] args) {
-		
+
 		String str = "DCBA";
 		char[] array = str.toCharArray();
 		char temp;
